@@ -1,0 +1,72 @@
+
+body,html
+{
+    height: 100%;
+    background-color: #212529;
+    color: #899095;
+}
+header
+{
+    border-bottom: 2px solid rgb(137, 144, 149);
+    padding-top: 0%;
+    padding-bottom: 5px;
+}
+
+span
+{
+    display: inline-block;
+}
+
+figure
+{
+    display: inline-block;
+}
+
+ul,li
+{
+   margin-right: 20rem;
+  
+}
+
+
+.esq
+{
+    display: inline-flex;
+    flex-wrap:wrap;
+    height: 100%;
+    width: 20%;
+}
+
+.mid
+{
+    display: inline-flex;
+    flex-wrap:wrap;
+    height: 100%;
+    width: 54%;
+  
+}
+
+.dir
+{
+    display: inline-flex;
+    flex-wrap:wrap;
+    height: 100%;
+    width: 25%;
+}
+
+.atalhos
+{
+   text-align: right;
+}
+
+.hive
+{
+    display: inline-flex; 
+    height: 100px;
+    width: auto; 
+}
+.search
+{
+    text-align: center;
+}
+

@@ -1,0 +1,123 @@
+ body, html
+{
+    background-color: #212529;
+    color: #899095; 
+} 
+
+
+header
+{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgb(137, 144, 149);
+}
+
+nav
+{
+    flex: 1 1 auto;
+    margin-left: 300px; 
+}
+
+
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main
+{
+    margin-top: 25px;
+}
+
+div.canais{ 
+    margin-top: 1px;
+    float: right;
+    width: 25%; 
+}
+
+div.conteudo{
+    padding: 3px;
+    float: left;
+    margin-top: 1px;
+    width: 50%;
+    margin-left: 24%;
+}
+
+p
+{
+    margin-bottom: 10px;
+}
+
+
+.opcoes img, li
+{ 
+    height: 30px;
+    width: auto;
+    display: inline-block;
+    list-style: none;
+    margin-top: 8px; 
+    margin-left: 20px; 
+}
+
+
+.logo img 
+{
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    margin-top: 1px;
+   
+}
+
+.busca
+{
+    margin-top: 18px;
+    display: inline-block;
+    margin-left: 450px;
+    
+}
+
+
+input[type=text]
+{ 
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc;
+    border:1px solid #000000;
+    width:150px;
+    height: 23px;
+    
+}
+
+textarea
+{
+    border: 1px solid #000000;
+    background:#cccccc;width:150px;
+    height:100px;border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+input[type=text]:hover, textarea:hover
+{  
+    background: #ffffff;
+    border:1px solid #990000;
+}
+
+
+
+
+
+
+
